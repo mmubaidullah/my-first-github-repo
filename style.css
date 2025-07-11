@@ -304,6 +304,20 @@ header .main-button {
     border-radius: 15px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
+.btn {
+    background-color: #4E47FF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+    
+}
 
 /* যোগাযোগ সেকশন */
 .contact-section {
